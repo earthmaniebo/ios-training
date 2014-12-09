@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B95A6CC51A36ED5C006850FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CC41A36ED5C006850FF /* main.m */; };
+		B95A6CC81A36ED5C006850FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CC71A36ED5C006850FF /* AppDelegate.m */; };
+		B95A6CCB1A36ED5C006850FF /* EarthBulletinBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CC91A36ED5C006850FF /* EarthBulletinBoard.xcdatamodeld */; };
+		B95A6CCE1A36ED5C006850FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CCD1A36ED5C006850FF /* ViewController.m */; };
+		B95A6CD11A36ED5C006850FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95A6CCF1A36ED5C006850FF /* Main.storyboard */; };
+		B95A6CD31A36ED5C006850FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95A6CD21A36ED5C006850FF /* Images.xcassets */; };
+		B95A6CD61A36ED5C006850FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95A6CD41A36ED5C006850FF /* LaunchScreen.xib */; };
+		B95A6CE21A36ED5C006850FF /* EarthBulletinBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CE11A36ED5C006850FF /* EarthBulletinBoardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95A6CDC1A36ED5C006850FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95A6CB71A36ED5C006850FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95A6CBE1A36ED5C006850FF;
+			remoteInfo = EarthBulletinBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B95A6CBF1A36ED5C006850FF /* EarthBulletinBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthBulletinBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95A6CC31A36ED5C006850FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95A6CC41A36ED5C006850FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95A6CC61A36ED5C006850FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B95A6CC71A36ED5C006850FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B95A6CCA1A36ED5C006850FF /* EarthBulletinBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthBulletinBoard.xcdatamodel; sourceTree = "<group>"; };
+		B95A6CCC1A36ED5C006850FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B95A6CCD1A36ED5C006850FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B95A6CD01A36ED5C006850FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B95A6CD21A36ED5C006850FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B95A6CD51A36ED5C006850FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B95A6CDB1A36ED5C006850FF /* EarthBulletinBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthBulletinBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95A6CE01A36ED5C006850FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95A6CE11A36ED5C006850FF /* EarthBulletinBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthBulletinBoardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95A6CBC1A36ED5C006850FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95A6CD81A36ED5C006850FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95A6CB61A36ED5C006850FF = {
+			isa = PBXGroup;
+			children = (
+				B95A6CC11A36ED5C006850FF /* EarthBulletinBoard */,
+				B95A6CDE1A36ED5C006850FF /* EarthBulletinBoardTests */,
+				B95A6CC01A36ED5C006850FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B95A6CC01A36ED5C006850FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95A6CBF1A36ED5C006850FF /* EarthBulletinBoard.app */,
+				B95A6CDB1A36ED5C006850FF /* EarthBulletinBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95A6CC11A36ED5C006850FF /* EarthBulletinBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B95A6CC61A36ED5C006850FF /* AppDelegate.h */,
+				B95A6CC71A36ED5C006850FF /* AppDelegate.m */,
+				B95A6CCC1A36ED5C006850FF /* ViewController.h */,
+				B95A6CCD1A36ED5C006850FF /* ViewController.m */,
+				B95A6CCF1A36ED5C006850FF /* Main.storyboard */,
+				B95A6CD21A36ED5C006850FF /* Images.xcassets */,
+				B95A6CD41A36ED5C006850FF /* LaunchScreen.xib */,
+				B95A6CC91A36ED5C006850FF /* EarthBulletinBoard.xcdatamodeld */,
+				B95A6CC21A36ED5C006850FF /* Supporting Files */,
+			);
+			path = EarthBulletinBoard;
+			sourceTree = "<group>";
+		};
+		B95A6CC21A36ED5C006850FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95A6CC31A36ED5C006850FF /* Info.plist */,
+				B95A6CC41A36ED5C006850FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95A6CDE1A36ED5C006850FF /* EarthBulletinBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B95A6CE11A36ED5C006850FF /* EarthBulletinBoardTests.m */,
+				B95A6CDF1A36ED5C006850FF /* Supporting Files */,
+			);
+			path = EarthBulletinBoardTests;
+			sourceTree = "<group>";
+		};
+		B95A6CDF1A36ED5C006850FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95A6CE01A36ED5C006850FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B95A6CBE1A36ED5C006850FF /* EarthBulletinBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95A6CE51A36ED5C006850FF /* Build configuration list for PBXNativeTarget "EarthBulletinBoard" */;
+			buildPhases = (
+				B95A6CBB1A36ED5C006850FF /* Sources */,
+				B95A6CBC1A36ED5C006850FF /* Frameworks */,
+				B95A6CBD1A36ED5C006850FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthBulletinBoard;
+			productName = EarthBulletinBoard;
+			productReference = B95A6CBF1A36ED5C006850FF /* EarthBulletinBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95A6CDA1A36ED5C006850FF /* EarthBulletinBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95A6CE81A36ED5C006850FF /* Build configuration list for PBXNativeTarget "EarthBulletinBoardTests" */;
+			buildPhases = (
+				B95A6CD71A36ED5C006850FF /* Sources */,
+				B95A6CD81A36ED5C006850FF /* Frameworks */,
+				B95A6CD91A36ED5C006850FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95A6CDD1A36ED5C006850FF /* PBXTargetDependency */,
+			);
+			name = EarthBulletinBoardTests;
+			productName = EarthBulletinBoardTests;
+			productReference = B95A6CDB1A36ED5C006850FF /* EarthBulletinBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95A6CB71A36ED5C006850FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Seer Technologies, Inc.";
+				TargetAttributes = {
+					B95A6CBE1A36ED5C006850FF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B95A6CDA1A36ED5C006850FF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B95A6CBE1A36ED5C006850FF;
+					};
+				};
+			};
+			buildConfigurationList = B95A6CBA1A36ED5C006850FF /* Build configuration list for PBXProject "EarthBulletinBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95A6CB61A36ED5C006850FF;
+			productRefGroup = B95A6CC01A36ED5C006850FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B95A6CBE1A36ED5C006850FF /* EarthBulletinBoard */,
+				B95A6CDA1A36ED5C006850FF /* EarthBulletinBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95A6CBD1A36ED5C006850FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95A6CD11A36ED5C006850FF /* Main.storyboard in Resources */,
+				B95A6CD61A36ED5C006850FF /* LaunchScreen.xib in Resources */,
+				B95A6CD31A36ED5C006850FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95A6CD91A36ED5C006850FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95A6CBB1A36ED5C006850FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95A6CCB1A36ED5C006850FF /* EarthBulletinBoard.xcdatamodeld in Sources */,
+				B95A6CC81A36ED5C006850FF /* AppDelegate.m in Sources */,
+				B95A6CCE1A36ED5C006850FF /* ViewController.m in Sources */,
+				B95A6CC51A36ED5C006850FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95A6CD71A36ED5C006850FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95A6CE21A36ED5C006850FF /* EarthBulletinBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95A6CDD1A36ED5C006850FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95A6CBE1A36ED5C006850FF /* EarthBulletinBoard */;
+			targetProxy = B95A6CDC1A36ED5C006850FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95A6CCF1A36ED5C006850FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95A6CD01A36ED5C006850FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B95A6CD41A36ED5C006850FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95A6CD51A36ED5C006850FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95A6CE31A36ED5C006850FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B95A6CE41A36ED5C006850FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95A6CE61A36ED5C006850FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarthBulletinBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B95A6CE71A36ED5C006850FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarthBulletinBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B95A6CE91A36ED5C006850FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EarthBulletinBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthBulletinBoard.app/EarthBulletinBoard";
+			};
+			name = Debug;
+		};
+		B95A6CEA1A36ED5C006850FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EarthBulletinBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthBulletinBoard.app/EarthBulletinBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95A6CBA1A36ED5C006850FF /* Build configuration list for PBXProject "EarthBulletinBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95A6CE31A36ED5C006850FF /* Debug */,
+				B95A6CE41A36ED5C006850FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95A6CE51A36ED5C006850FF /* Build configuration list for PBXNativeTarget "EarthBulletinBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95A6CE61A36ED5C006850FF /* Debug */,
+				B95A6CE71A36ED5C006850FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B95A6CE81A36ED5C006850FF /* Build configuration list for PBXNativeTarget "EarthBulletinBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95A6CE91A36ED5C006850FF /* Debug */,
+				B95A6CEA1A36ED5C006850FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B95A6CC91A36ED5C006850FF /* EarthBulletinBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B95A6CCA1A36ED5C006850FF /* EarthBulletinBoard.xcdatamodel */,
+			);
+			currentVersion = B95A6CCA1A36ED5C006850FF /* EarthBulletinBoard.xcdatamodel */;
+			path = EarthBulletinBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B95A6CB71A36ED5C006850FF /* Project object */;
+}
