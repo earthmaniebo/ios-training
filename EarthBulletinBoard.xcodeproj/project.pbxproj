@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B945A8B41A37656900E3A2CD /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B945A8B31A37656900E3A2CD /* PostTableViewCell.xib */; };
+		B945A8B71A37666100E3A2CD /* EBBPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A8B61A37666100E3A2CD /* EBBPostTableViewCell.m */; };
+		B945A8BC1A37EDCB00E3A2CD /* EBBPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A8BB1A37EDCB00E3A2CD /* EBBPostView.m */; };
+		B945A8BE1A37EF0B00E3A2CD /* PostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B945A8BD1A37EF0B00E3A2CD /* PostView.xib */; };
+		B945A8C11A37F05400E3A2CD /* EBBPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A8C01A37F05400E3A2CD /* EBBPostViewController.m */; };
+		B945A8C61A385F2D00E3A2CD /* EBBAddPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A8C51A385F2D00E3A2CD /* EBBAddPostView.m */; };
+		B945A8C91A38602300E3A2CD /* EBBAddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A8C81A38602300E3A2CD /* EBBAddPostViewController.m */; };
+		B945A8CB1A386BF700E3A2CD /* CommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B945A8CA1A386BF700E3A2CD /* CommentView.xib */; };
+		B945A8CD1A386C1800E3A2CD /* AddPostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B945A8CC1A386C1800E3A2CD /* AddPostView.xib */; };
+		B945A8D01A387E7400E3A2CD /* EBBCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A8CF1A387E7400E3A2CD /* EBBCommentView.m */; };
+		B945A8D31A387EFC00E3A2CD /* EBBCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B945A8D21A387EFC00E3A2CD /* EBBCommentViewController.m */; };
 		B95A6CC51A36ED5C006850FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CC41A36ED5C006850FF /* main.m */; };
 		B95A6CC81A36ED5C006850FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CC71A36ED5C006850FF /* AppDelegate.m */; };
 		B95A6CCB1A36ED5C006850FF /* EarthBulletinBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CC91A36ED5C006850FF /* EarthBulletinBoard.xcdatamodeld */; };
-		B95A6CCE1A36ED5C006850FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CCD1A36ED5C006850FF /* ViewController.m */; };
 		B95A6CD11A36ED5C006850FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95A6CCF1A36ED5C006850FF /* Main.storyboard */; };
 		B95A6CD31A36ED5C006850FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95A6CD21A36ED5C006850FF /* Images.xcassets */; };
 		B95A6CD61A36ED5C006850FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95A6CD41A36ED5C006850FF /* LaunchScreen.xib */; };
 		B95A6CE21A36ED5C006850FF /* EarthBulletinBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CE11A36ED5C006850FF /* EarthBulletinBoardTests.m */; };
+		B95A6CF11A36FBD1006850FF /* EBBBaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CF01A36FBD1006850FF /* EBBBaseUIViewController.m */; };
+		B95A6CF41A36FC77006850FF /* EBBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CF31A36FC77006850FF /* EBBLoginViewController.m */; };
+		B95A6CF81A36FCE7006850FF /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95A6CF71A36FCE7006850FF /* LoginView.xib */; };
+		B95A6CFB1A36FFAE006850FF /* EBBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CFA1A36FFAE006850FF /* EBBLoginView.m */; };
+		B95A6CFD1A3718C7006850FF /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95A6CFC1A3718C7006850FF /* HomeView.xib */; };
+		B95A6D001A371D6C006850FF /* EBBHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6CFF1A371D6C006850FF /* EBBHomeView.m */; };
+		B95A6D031A371E82006850FF /* EBBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95A6D021A371E82006850FF /* EBBHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +45,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B945A8B31A37656900E3A2CD /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostTableViewCell.xib; path = Xibs/PostTableViewCell.xib; sourceTree = "<group>"; };
+		B945A8B51A37666100E3A2CD /* EBBPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBPostTableViewCell.h; path = Views/EBBPostTableViewCell.h; sourceTree = "<group>"; };
+		B945A8B61A37666100E3A2CD /* EBBPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBPostTableViewCell.m; path = Views/EBBPostTableViewCell.m; sourceTree = "<group>"; };
+		B945A8BA1A37EDCB00E3A2CD /* EBBPostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBPostView.h; path = Views/EBBPostView.h; sourceTree = "<group>"; };
+		B945A8BB1A37EDCB00E3A2CD /* EBBPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBPostView.m; path = Views/EBBPostView.m; sourceTree = "<group>"; };
+		B945A8BD1A37EF0B00E3A2CD /* PostView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostView.xib; path = Xibs/PostView.xib; sourceTree = "<group>"; };
+		B945A8BF1A37F05400E3A2CD /* EBBPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBPostViewController.h; path = Controllers/EBBPostViewController.h; sourceTree = "<group>"; };
+		B945A8C01A37F05400E3A2CD /* EBBPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBPostViewController.m; path = Controllers/EBBPostViewController.m; sourceTree = "<group>"; };
+		B945A8C41A385F2D00E3A2CD /* EBBAddPostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBAddPostView.h; path = Views/EBBAddPostView.h; sourceTree = "<group>"; };
+		B945A8C51A385F2D00E3A2CD /* EBBAddPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBAddPostView.m; path = Views/EBBAddPostView.m; sourceTree = "<group>"; };
+		B945A8C71A38602300E3A2CD /* EBBAddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBAddPostViewController.h; path = Controllers/EBBAddPostViewController.h; sourceTree = "<group>"; };
+		B945A8C81A38602300E3A2CD /* EBBAddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBAddPostViewController.m; path = Controllers/EBBAddPostViewController.m; sourceTree = "<group>"; };
+		B945A8CA1A386BF700E3A2CD /* CommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommentView.xib; path = Xibs/CommentView.xib; sourceTree = "<group>"; };
+		B945A8CC1A386C1800E3A2CD /* AddPostView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddPostView.xib; path = Xibs/AddPostView.xib; sourceTree = "<group>"; };
+		B945A8CE1A387E7400E3A2CD /* EBBCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBCommentView.h; path = Views/EBBCommentView.h; sourceTree = "<group>"; };
+		B945A8CF1A387E7400E3A2CD /* EBBCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBCommentView.m; path = Views/EBBCommentView.m; sourceTree = "<group>"; };
+		B945A8D11A387EFC00E3A2CD /* EBBCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBCommentViewController.h; path = Controllers/EBBCommentViewController.h; sourceTree = "<group>"; };
+		B945A8D21A387EFC00E3A2CD /* EBBCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBCommentViewController.m; path = Controllers/EBBCommentViewController.m; sourceTree = "<group>"; };
 		B95A6CBF1A36ED5C006850FF /* EarthBulletinBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthBulletinBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95A6CC31A36ED5C006850FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B95A6CC41A36ED5C006850FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B95A6CC61A36ED5C006850FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B95A6CC71A36ED5C006850FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B95A6CCA1A36ED5C006850FF /* EarthBulletinBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthBulletinBoard.xcdatamodel; sourceTree = "<group>"; };
-		B95A6CCC1A36ED5C006850FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B95A6CCD1A36ED5C006850FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B95A6CD01A36ED5C006850FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B95A6CD21A36ED5C006850FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B95A6CD51A36ED5C006850FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B95A6CDB1A36ED5C006850FF /* EarthBulletinBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthBulletinBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95A6CE01A36ED5C006850FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B95A6CE11A36ED5C006850FF /* EarthBulletinBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthBulletinBoardTests.m; sourceTree = "<group>"; };
+		B95A6CEF1A36FBD1006850FF /* EBBBaseUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBBaseUIViewController.h; path = Controllers/EBBBaseUIViewController.h; sourceTree = "<group>"; };
+		B95A6CF01A36FBD1006850FF /* EBBBaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBBaseUIViewController.m; path = Controllers/EBBBaseUIViewController.m; sourceTree = "<group>"; };
+		B95A6CF21A36FC77006850FF /* EBBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBLoginViewController.h; path = Controllers/EBBLoginViewController.h; sourceTree = "<group>"; };
+		B95A6CF31A36FC77006850FF /* EBBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBLoginViewController.m; path = Controllers/EBBLoginViewController.m; sourceTree = "<group>"; };
+		B95A6CF71A36FCE7006850FF /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = Xibs/LoginView.xib; sourceTree = "<group>"; };
+		B95A6CF91A36FFAE006850FF /* EBBLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBLoginView.h; path = Views/EBBLoginView.h; sourceTree = "<group>"; };
+		B95A6CFA1A36FFAE006850FF /* EBBLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBLoginView.m; path = Views/EBBLoginView.m; sourceTree = "<group>"; };
+		B95A6CFC1A3718C7006850FF /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeView.xib; path = Xibs/HomeView.xib; sourceTree = "<group>"; };
+		B95A6CFE1A371D6C006850FF /* EBBHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBHomeView.h; path = Views/EBBHomeView.h; sourceTree = "<group>"; };
+		B95A6CFF1A371D6C006850FF /* EBBHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBHomeView.m; path = Views/EBBHomeView.m; sourceTree = "<group>"; };
+		B95A6D011A371E82006850FF /* EBBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBHomeViewController.h; path = Controllers/EBBHomeViewController.h; sourceTree = "<group>"; };
+		B95A6D021A371E82006850FF /* EBBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBHomeViewController.m; path = Controllers/EBBHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +128,12 @@
 		B95A6CC11A36ED5C006850FF /* EarthBulletinBoard */ = {
 			isa = PBXGroup;
 			children = (
+				B95A6CEC1A36ED7A006850FF /* Models */,
+				B95A6CEB1A36ED70006850FF /* Controllers */,
+				B95A6CED1A36ED80006850FF /* Views */,
+				B95A6CEE1A36ED89006850FF /* Xibs */,
 				B95A6CC61A36ED5C006850FF /* AppDelegate.h */,
 				B95A6CC71A36ED5C006850FF /* AppDelegate.m */,
-				B95A6CCC1A36ED5C006850FF /* ViewController.h */,
-				B95A6CCD1A36ED5C006850FF /* ViewController.m */,
 				B95A6CCF1A36ED5C006850FF /* Main.storyboard */,
 				B95A6CD21A36ED5C006850FF /* Images.xcassets */,
 				B95A6CD41A36ED5C006850FF /* LaunchScreen.xib */,
@@ -120,6 +167,64 @@
 				B95A6CE01A36ED5C006850FF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95A6CEB1A36ED70006850FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B95A6CEF1A36FBD1006850FF /* EBBBaseUIViewController.h */,
+				B95A6CF01A36FBD1006850FF /* EBBBaseUIViewController.m */,
+				B95A6D011A371E82006850FF /* EBBHomeViewController.h */,
+				B95A6D021A371E82006850FF /* EBBHomeViewController.m */,
+				B95A6CF21A36FC77006850FF /* EBBLoginViewController.h */,
+				B95A6CF31A36FC77006850FF /* EBBLoginViewController.m */,
+				B945A8BF1A37F05400E3A2CD /* EBBPostViewController.h */,
+				B945A8C01A37F05400E3A2CD /* EBBPostViewController.m */,
+				B945A8C71A38602300E3A2CD /* EBBAddPostViewController.h */,
+				B945A8C81A38602300E3A2CD /* EBBAddPostViewController.m */,
+				B945A8D11A387EFC00E3A2CD /* EBBCommentViewController.h */,
+				B945A8D21A387EFC00E3A2CD /* EBBCommentViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B95A6CEC1A36ED7A006850FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B95A6CED1A36ED80006850FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B95A6CFE1A371D6C006850FF /* EBBHomeView.h */,
+				B95A6CFF1A371D6C006850FF /* EBBHomeView.m */,
+				B95A6CF91A36FFAE006850FF /* EBBLoginView.h */,
+				B95A6CFA1A36FFAE006850FF /* EBBLoginView.m */,
+				B945A8B51A37666100E3A2CD /* EBBPostTableViewCell.h */,
+				B945A8CE1A387E7400E3A2CD /* EBBCommentView.h */,
+				B945A8CF1A387E7400E3A2CD /* EBBCommentView.m */,
+				B945A8B61A37666100E3A2CD /* EBBPostTableViewCell.m */,
+				B945A8BA1A37EDCB00E3A2CD /* EBBPostView.h */,
+				B945A8C41A385F2D00E3A2CD /* EBBAddPostView.h */,
+				B945A8C51A385F2D00E3A2CD /* EBBAddPostView.m */,
+				B945A8BB1A37EDCB00E3A2CD /* EBBPostView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B95A6CEE1A36ED89006850FF /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				B95A6CFC1A3718C7006850FF /* HomeView.xib */,
+				B95A6CF71A36FCE7006850FF /* LoginView.xib */,
+				B945A8B31A37656900E3A2CD /* PostTableViewCell.xib */,
+				B945A8BD1A37EF0B00E3A2CD /* PostView.xib */,
+				B945A8CC1A386C1800E3A2CD /* AddPostView.xib */,
+				B945A8CA1A386BF700E3A2CD /* CommentView.xib */,
+			);
+			name = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +271,7 @@
 		B95A6CB71A36ED5C006850FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EBB;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Seer Technologies, Inc.";
 				TargetAttributes = {
@@ -204,7 +310,13 @@
 			files = (
 				B95A6CD11A36ED5C006850FF /* Main.storyboard in Resources */,
 				B95A6CD61A36ED5C006850FF /* LaunchScreen.xib in Resources */,
+				B945A8CD1A386C1800E3A2CD /* AddPostView.xib in Resources */,
+				B95A6CF81A36FCE7006850FF /* LoginView.xib in Resources */,
+				B945A8B41A37656900E3A2CD /* PostTableViewCell.xib in Resources */,
 				B95A6CD31A36ED5C006850FF /* Images.xcassets in Resources */,
+				B945A8BE1A37EF0B00E3A2CD /* PostView.xib in Resources */,
+				B945A8CB1A386BF700E3A2CD /* CommentView.xib in Resources */,
+				B95A6CFD1A3718C7006850FF /* HomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +335,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95A6CCB1A36ED5C006850FF /* EarthBulletinBoard.xcdatamodeld in Sources */,
+				B95A6CF11A36FBD1006850FF /* EBBBaseUIViewController.m in Sources */,
 				B95A6CC81A36ED5C006850FF /* AppDelegate.m in Sources */,
-				B95A6CCE1A36ED5C006850FF /* ViewController.m in Sources */,
+				B945A8B71A37666100E3A2CD /* EBBPostTableViewCell.m in Sources */,
+				B95A6D031A371E82006850FF /* EBBHomeViewController.m in Sources */,
+				B95A6CF41A36FC77006850FF /* EBBLoginViewController.m in Sources */,
+				B945A8C11A37F05400E3A2CD /* EBBPostViewController.m in Sources */,
+				B945A8C91A38602300E3A2CD /* EBBAddPostViewController.m in Sources */,
+				B95A6CFB1A36FFAE006850FF /* EBBLoginView.m in Sources */,
 				B95A6CC51A36ED5C006850FF /* main.m in Sources */,
+				B945A8D01A387E7400E3A2CD /* EBBCommentView.m in Sources */,
+				B945A8BC1A37EDCB00E3A2CD /* EBBPostView.m in Sources */,
+				B945A8C61A385F2D00E3A2CD /* EBBAddPostView.m in Sources */,
+				B95A6D001A371D6C006850FF /* EBBHomeView.m in Sources */,
+				B945A8D31A387EFC00E3A2CD /* EBBCommentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +539,7 @@
 				B95A6CE71A36ED5C006850FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B95A6CE81A36ED5C006850FF /* Build configuration list for PBXNativeTarget "EarthBulletinBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +548,7 @@
 				B95A6CEA1A36ED5C006850FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

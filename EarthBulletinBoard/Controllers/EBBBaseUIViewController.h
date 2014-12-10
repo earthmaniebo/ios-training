@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EBBBaseUIViewController.h
 //  EarthBulletinBoard
 //
 //  Created by Earth Ponce Maniebo on 12/9/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface EBBBaseUIViewController : UIViewController
 
+- (UIView*)getCustomXibUsingXibName:(NSString*)xibName;
 
 @end
-
